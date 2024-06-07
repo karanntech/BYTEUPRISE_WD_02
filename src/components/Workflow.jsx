@@ -20,7 +20,7 @@ const Workflow = () => {
                         <p className="text-md text-neutral-500">{item.description}</p>
                     </div>
                 </div>
-            ))};
+            ))}
             </div>
         </div>
     </div>
