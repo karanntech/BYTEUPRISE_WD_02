@@ -7,10 +7,10 @@ const Pricing = () => {
         <div className="flex flex-wrap">
             {pricingOptions.map((option, index)=> (
                 <div key={index} className="w-full sm:w-1/2 lg:w-1/3 p-2">
-                    <div className="p-10 border border-neutral-700 rounded-xl">
+                    <div className="p-10 border border-neutral-900 rounded-xl">
                         <p>{option.title}
                             {option.title === "Pro" && (
-                                <span className="bg-gradient-to-r from-orange-500 to-red-400 text-transparent bg-clip-text text-xl mb-4 ml-2">(Most Popular)</span>
+                                <span className="bg-gradient-to-r from-blue-500 to-blue-400 text-transparent bg-clip-text text-xl mb-4 ml-2">(Most Popular)</span>
                             )}
                         </p>
                         <p className="mb-8">
@@ -25,7 +25,7 @@ const Pricing = () => {
                                 </li>
                             ))}
                         </ul>
-                        <a href="#" className="inline-flex justify-center items-center w-full h-12 p-5 mt-20 tracking-tight text-xl hover:bg-orange-500 border border-red-400 rounded-lg transition duration-200">Subscribe</a>
+                        <a href="#" className="inline-flex justify-center items-center w-full h-12 p-5 mt-20 tracking-tight text-xl hover:bg-blue-500 border border-black-100 rounded-lg transition duration-200">Subscribe</a>
                     </div>
                 </div>
             ))}
